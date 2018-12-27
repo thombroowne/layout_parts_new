@@ -1,91 +1,64 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__textalign {
-  text-align: center;
-}
-.q6__textalign__text{
-  background-color: #e6f2ff;
-  width: 90px;
-  display: inline-block;
+.q6--horizontal .q6__box__text {
   padding: 10px 0;
-
-}
-
-.q6__textalign__text_second{
-  background-color: #e6f2ff;
   width: 90px;
-  display: block;
-  margin: auto;
-  padding: 10px 0;
+  background-color: #e6f2ff;
+}
+.q6__box.is-textalign .q6__box__inner {
   text-align: center;
 }
-
-.q6--table{
- vertical-align: middle;
-}
-
-.q6--table_text{
-  background-color: #fff;
-  width: 10px;
+.q6__box.is-textalign .q6__box__text {
   display: inline-block;
+}
+.q6__box.is-margin .q6__box__text {
+  margin: 0 auto;
   text-align: center;
 }
 
-
-.q6--around.third{
+.q6--around.is-table {
   display: table;
 }
-
-.q6--table_third{
+.q6--around.is-table .q6__box {
   display: table-cell;
-  vertical-align: middle;
+  background-color: #ecf1f2;
   text-align: center;
+  vertical-align: middle;
 }
-
-.q6--table_text_third{
-  background-color: #fff;
+.q6--around.is-table .q6__box__text {
   display: inline-block;
-  padding: 10px 10px;
-
+  padding: 10px;
+  background-color: #FFF;
 }
 
-.q6--around.fourth{
+.q6--around.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.q6-around--fourth{
- background-color: #fff;
- padding: 10px 10px;
+.q6--around.is-flex .q6__box__text {
+  padding: 10px;
+  background-color: #FFF;
 }
-
-.is-stable{
+.q6--position .q6__box {
   position: relative;
 }
-
-.q6__box__inner{
-  width: 110px;
-  height: 30px;
-  margin: auto;
+.q6__box.is-stable .q6__box__inner {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
+  margin: auto;
 }
-.q6__box.is-flexible{
-  position: relative;
-
-
-}
-.q6__box__inner_fifth{
+.q6__box.is-flexible .q6__box__inner {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
   text-align: center;
+  transform: translate(-50%, -50%);
 }
+
 
 /* 回答はここに書いてね */

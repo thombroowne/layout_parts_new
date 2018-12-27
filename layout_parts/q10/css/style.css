@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q10__red{
+.q10__text{
   position: relative;
   width: 500px;
   padding: 20px;
@@ -10,30 +10,27 @@
   border-radius: 30px;
 }
 
-.q10__red:before,
-.q10__red::after{
+.q10__text:before,
+.q10__text::after{
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0;
   height: 0;
+  border: 20px solid transparent;
   content: ""
 }
 
-.q10__red:before{
+.q10__text:before{
   bottom: -45px;
   left:30px;
-  border-top: 40px solid #222;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
+  border-top-color: #222;
 }
 
-.q10__red:after{
+.q10__text:after{
   bottom:-38px;
   left:30px;
-  border-top: 40px solid #fff;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
+  border-top-color: #fff;
 }
 
 /* 回答はここに書いてね */

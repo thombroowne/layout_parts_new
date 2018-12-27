@@ -16,7 +16,7 @@
 
 
 
-.boxA{
+.box-original{
   background-color:#3274ae;
   float:left;
   padding:20px;
@@ -28,7 +28,7 @@
 }
 
 
-.box-1 {
+.box-origin {
   background-color:#eaf4ff;
   box-sizing:border-box;
   width:230px;
