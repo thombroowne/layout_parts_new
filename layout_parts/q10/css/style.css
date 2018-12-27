@@ -9,7 +9,6 @@
   border: 5px solid #222;
   border-radius: 30px;
 }
-
 .q10__text:before,
 .q10__text::after{
   position: absolute;
@@ -20,13 +19,11 @@
   border: 20px solid transparent;
   content: ""
 }
-
 .q10__text:before{
   bottom: -45px;
   left:30px;
   border-top-color: #222;
 }
-
 .q10__text:after{
   bottom:-38px;
   left:30px;

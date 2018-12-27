@@ -14,8 +14,6 @@
   padding:20px;
 }
 
-
-
 .box-original{
   background-color:#3274ae;
   float:left;
@@ -23,17 +21,15 @@
   margin-left:20px;
 
 }
-.boxA:first-child{
+.box-original:first-child{
   margin-left:0px;
 }
-
 
 .box-origin {
   background-color:#eaf4ff;
   box-sizing:border-box;
   width:230px;
   padding:20px;
-  float:left;
   border:#022336 10px solid;
   font-size:16px;
   line-height:16px;
