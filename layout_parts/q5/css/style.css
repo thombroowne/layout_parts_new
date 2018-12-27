@@ -2,4 +2,95 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.content{
+  background-color: #ECF1F2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.square {
+  width:100px;
+  height:100px;
+  line-height: 100px;
+  position: absolute;
+}
+
+.first{
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+
+}
+
+.second{
+  background-color:#7084de;
+  top: 120px;
+  left: 280px;
+
+}
+
+.third{
+  background-color: #d0ecea;
+  top: 200px;
+  right: 40px;
+}
+
+.fourth{
+  background-color: #8b7a5e;
+  bottom: 120px;
+  right: 120px;
+  z-index: 1;
+}
+
+.fifth{
+  background-color: #9fd6d2;
+  bottom:40px;
+  left:200px;
+  z-index: 2;
+}
+
+.sixth{
+  background-color: #fffee4;
+  bottom: 120px;
+  left: 120px;
+  z-index: 3;
+}
+
+.seventh{
+  background-color: #deae70;
+  top:200px;
+  left:40px;
+  z-index: 4;
+}
+
+.eighth{
+  background-color: #de70cf;
+  top: 120px;
+  left:120px;
+  z-index: 5;
+}
+
+
+.eighth:after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFEFD3;
+  content: "";
+}
+
+.ninth{
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+ /* 回答はここに書いてね */

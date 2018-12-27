@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table {
+    text-align: center;
+    width:100%;
+}
 
+th {
+    background-color: #2244aa;
+    padding:10px;
+    color:white;
+}
+
+td{
+  padding:3px 10px;
+}
+
+table th, table td {
+  border: solid 1px #dedede;
+}
+
+.q3__contents > tbody > tr:last-child {
+    border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */
